@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt65iccvbpw13"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_7w47k"]
+[ext_resource type="Texture2D" uid="uid://dbx66sovxd1" path="res://icon.svg" id="2_srxas"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_7w47k")
+
+[node name="GDExample" type="GDExample" parent="."]
+amplitude = 500.0
+position = Vector2(829.262, 984.916)
+texture = ExtResource("2_srxas")
